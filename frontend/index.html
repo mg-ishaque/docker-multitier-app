@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="dashboard">
+        <h1>DevOps Monitoring Dashboard</h1>
+        <p>Spring Boot Application Monitoring</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Application Status</h3>
+                <h2 id="status">Loading...</h2>
+            </div>
+
+            <div class="card">
+                <h3>Uptime</h3>
+                <h2 id="uptime">--</h2>
+            </div>
+
+            <div class="card">
+                <h3>JVM Memory Used</h3>
+                <h2 id="memory-used">--</h2>
+            </div>
+
+            <div class="card">
+                <h3>Max JVM Memory</h3>
+                <h2 id="memory-max">--</h2>
+            </div>
+        </div>
+
+        <p id="last-updated"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
